@@ -12,7 +12,7 @@ namespace Blazor.UITest
     {
 
         /// <summary>
-        /// Pauses application for specified interval
+        /// Pauses application for specified interval.
         /// </summary>
         /// <param name="millisecondsToPause">Sets interval to Pause</param>
         public static void Pause(int millisecondsToPause = 2000)
@@ -42,7 +42,6 @@ namespace Blazor.UITest
             ClearField(element);
             element.SendKeys(text);
         }
-
 
     }
 }
