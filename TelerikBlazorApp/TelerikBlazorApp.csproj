@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Telerik.Documents.SpreadsheetStreaming.Trial" Version="2020.2.504" />
+    <PackageReference Include="Telerik.UI.for.Blazor.Trial" Version="2.13.0" />
+  </ItemGroup>
+
+</Project>
